@@ -6,7 +6,7 @@
 import * as path from 'node:path';
 import * as fs from 'original-fs';
 import * as os from 'node:os';
-import { performance } from 'node:perf_hooks';
+import {performance} from 'node:perf_hooks';
 import { configurePortable } from './bootstrap-node.js';
 import { bootstrapESM } from './bootstrap-esm.js';
 import { app, protocol, crashReporter, Menu, contentTracing } from 'electron';
